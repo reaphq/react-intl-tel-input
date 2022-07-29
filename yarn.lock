@@ -15593,14 +15593,14 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"libphonenumber-js-utils@https://github.com/reaphq/libphonenumber-js-utils.git#6c8adf6c28f7f2d3aac649b49f611e67a7797e0f":
+"libphonenumber-js-utils@https://github.com/reaphq/libphonenumber-js-utils.git#c25f5e6c112c0fbaad517ec5520b9d3110a899c6":
   version: 8.12.51
-  resolution: "libphonenumber-js-utils@https://github.com/reaphq/libphonenumber-js-utils.git#commit=6c8adf6c28f7f2d3aac649b49f611e67a7797e0f"
+  resolution: "libphonenumber-js-utils@https://github.com/reaphq/libphonenumber-js-utils.git#commit=c25f5e6c112c0fbaad517ec5520b9d3110a899c6"
   dependencies:
     "@node-minify/core": ^6.2.0
     "@node-minify/google-closure-compiler": ^6.2.0
     filterxml: ^1.1.4
-  checksum: bd91e58409dd4b2f79460799c680ccaac1134fab9d086a06959286ddb3b63fdc0c597347cfaabb4da854d649ae397b03da37af1e5a27697dd9d1af6ae6229c02
+  checksum: 8ef7f1057b538f40fa0b919445538a0042c1dc9aa2e1a0fb9afe60ec49eec26288ba7e672f6469e734fa4a2fe2bb4e1d3d4c40f562040e70180cc39108c9d590
   languageName: node
   linkType: hard
 
@@ -20430,7 +20430,7 @@ fsevents@~2.3.2:
     jasmine-reporters: ^2.2.0
     jest: ^23.6.0
     jsdom: ^9.2.1
-    libphonenumber-js-utils: "https://github.com/reaphq/libphonenumber-js-utils.git#6c8adf6c28f7f2d3aac649b49f611e67a7797e0f"
+    libphonenumber-js-utils: "https://github.com/reaphq/libphonenumber-js-utils.git#c25f5e6c112c0fbaad517ec5520b9d3110a899c6"
     lint-staged: ^11.1.1
     packwatch: ^1.0.0
     prettier: ^1.14.2
