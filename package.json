@@ -40,7 +40,7 @@
   ],
   "dependencies": {
     "classnames": "^2.2.5",
-    "libphonenumber-js-utils": "https://github.com/reaphq/libphonenumber-js-utils.git#c25f5e6c112c0fbaad517ec5520b9d3110a899c6",
+    "libphonenumber-js-utils": "https://github.com/reaphq/libphonenumber-js-utils.git#d76416c17ddcdd3c939280271b8a91ab3ad7c0be",
     "prop-types": "^15.6.1",
     "react-style-proptype": "^3.0.0",
     "underscore.deferred": "^0.4.0"
@@ -142,5 +142,6 @@
   "engines": {
     "node": ">=6.14.14"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@4.9.2"
 }
