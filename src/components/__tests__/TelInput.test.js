@@ -511,4 +511,25 @@ describe('TelInput', function() {
       expect(changedInputComponent.props().value).toBe('+886912345678')
     })
   })
+
+  it('validates a real Hong Kong phone number', () => {
+    this.params = {
+      ...this.params,
+      defaultCountry: 'hk',
+      nationalMode: true,
+      value: '9390 7970',
+    }
+    const subject = this.makeSubject()
+
+    expect(this.params.defaultCountry).toBe('hk')
+
+    // Verify that the country is correctly set to Hong Kong
+    expect(subject.instance().selectedCountryData.iso2).toBe('hk')
+    expect(subject.instance().selectedCountryData.name).toBe('Hong Kong (香港)')
+    expect(subject.instance().selectedCountryData.dialCode).toBe('852')
+
+    // Test with a valid HK mobile number format (8 digits starting with 5, 6, or 9)
+    expect(subject.instance().isValidNumber('9390 7970')).toBe(true)
+    expect(subject.instance().isValidNumber('12345')).toBe(false)
+  })
 })
